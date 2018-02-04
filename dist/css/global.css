@@ -198,24 +198,6 @@ template {
 [hidden] {
   display: none; }
 
-.text-center {
-  text-align: center; }
-
-.text-right {
-  text-align: right; }
-
-.text-left {
-  text-align: left; }
-
-.text-upper {
-  text-transform: uppercase; }
-
-.text-ital {
-  font-style: italic; }
-
-small {
-  font-size: .5em; }
-
 html,
 body {
   height: 100%; }
@@ -344,6 +326,24 @@ body ::-webkit-scrollbar-thumb:window-inactive {
 
 body ::-webkit-scrollbar-thumb:hover {
   background: rgba(128, 135, 139, 0.8); }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.text-left {
+  text-align: left; }
+
+.text-upper {
+  text-transform: uppercase; }
+
+.text-ital {
+  font-style: italic; }
+
+small {
+  font-size: .5em; }
 
 body {
   font-family: 'Arial', sans-serif; }
