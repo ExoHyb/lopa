@@ -157,3 +157,9 @@ body {
     border-radius: 1px*$i;
   }
 }
+
+@for $i from 0 through 250 {
+  .zi-#{$i} {
+    z-index: #{$i};
+  }
+}
