@@ -1,0 +1,14 @@
+.info {
+  border: 1px solid $color-beta;
+  background: $color-beta;
+  padding: 1rem;
+  border-radius: 3px;
+  &.info-success {
+    background: $color-success;
+    border-color: $color-success;
+  }
+  &.info-danger {
+    background: $color-danger;
+    border-color: $color-danger;
+  }
+}

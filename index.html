@@ -8,7 +8,7 @@
 <body>
   <main class="lp">
     <header class="mgt-1 mgb-2">
-      <h1 class="text-center mgb-0">Lopa <small>v1.0.00</small></h1>
+      <h1 class="text-center mgb-0">Lopa <small>v1.0.01</small></h1>
       <p class="text-center text-ital mgt-0">A Framework for the Bonhommes</p>
     </header>
     <section class="flex">
@@ -24,10 +24,12 @@
         <h2>Theme colors</h2>
         <pre>
           <code>
-            $color-alpha: #c9c9c9;
-            $color-beta: #e3e3e3;
-            $color-gamma: #9ad3de;
-            $color-delta: #89bdd3;
+            <span class="bg-alpha">$color-alpha: #c9c9c9;</span>
+            <span class="bg-beta">$color-beta: #e3e3e3;</span>
+            <span class="bg-gamma">$color-gamma: #9ad3de;</span>
+            <span class="bg-delta">$color-delta: #89bdd3;</span>
+            <span class="bg-success">$color-success;</span>
+            <span class="bg-danger">$color-danger</span>
           </code>
         </pre>
         <h2>Système de colonnes</h2>
@@ -36,15 +38,32 @@
           <div class="col-30 border-1 pd-1">
             <p>.col-30</p>
           </div>
-          <div class="col-20 border-1 mgx-1 pd-1">
+          <div class="col-20 border-1 pd-1">
             <p>.col-20</p>
           </div>
           <div class="col-50 border-1 pd-1">
             <p>.col-50</p>
           </div>
         </div>
+        <div class="flex mgt-1">
+          <div class="col-35 border-1 pd-1">
+            <p>.col-35</p>
+          </div>
+          <div class="col-65 border-1 pd-1">
+            <p>.col-65</p>
+          </div>
+        </div>
+        <h2>Informations</h2>
+        <div class="info mgb-1">
+          <p>.info</p>
+        </div>
+        <div class="info info-success mgb-1">
+          <p>.info .info-success</p>
+        </div>
+        <div class="info info-danger mgb-1">
+          <p>.info .info-danger</p>
+        </div>
       </div>
-
     </section>
   </main>
 </body>

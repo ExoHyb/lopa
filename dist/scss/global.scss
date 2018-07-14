@@ -13,9 +13,12 @@
 @import "variables";
 @import "normalize";
 @import "text";
+@import "colors";
+@import "infos";
+@import "style";
 
 body {
-  font-family: 'Arial', sans-serif;
+  // font-family: 'Arial', sans-serif;
 }
 
 @mixin lp-container {
@@ -32,11 +35,21 @@ body {
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 @for $i from 1 through 100 {
   .col-#{$i} {
     width: 1%*$i;
+  }
+}
+
+@media (max-width: $xs) {
+  @for $i from 1 through 100 {
+    .col-xs-#{$i} {
+      width: 1%*$i;
+    }
   }
 }
 
@@ -147,6 +160,30 @@ body {
 @for $i from 0 through 10 {
   .border-#{$i} {
     border: 1px*$i solid $border-color;
+  }
+}
+
+@for $i from 0 through 10 {
+  .border-b-#{$i} {
+    border-bottom: 1px solid $border-color;
+  }
+}
+
+@for $i from 0 through 10 {
+  .border-t-#{$i} {
+    border-top: 1px solid $border-color;
+  }
+}
+
+@for $i from 0 through 10 {
+  .border-r-#{$i} {
+    border-right: 1px solid $border-color;
+  }
+}
+
+@for $i from 0 through 10 {
+  .border-l-#{$i} {
+    border-left: 1px solid $border-color;
   }
 }
 
