@@ -1,5 +1,5 @@
 /*
- * # Lopa - 1.0.02
+ * # Lopa - 1.0.03
  * https://github.com/
  * http://www.lopa.com/
  *
@@ -52,6 +52,30 @@ body {
 @media (max-width: $xs) {
   @for $i from 1 through 100 {
     .col-xs-#{$i} {
+      width: 1%*$i;
+    }
+  }
+}
+
+@media (min-width: $xs) and (max-width: $sm) {
+  @for $i from 1 through 100 {
+    .col-sm-#{$i} {
+      width: 1%*$i;
+    }
+  }
+}
+
+@media (min-width: $sm) and (max-width: $md) {
+  @for $i from 1 through 100 {
+    .col-md-#{$i} {
+      width: 1%*$i;
+    }
+  }
+}
+
+@media (min-width: $md) and (max-width: $lg) {
+  @for $i from 1 through 100 {
+    .col-lg-#{$i} {
       width: 1%*$i;
     }
   }
