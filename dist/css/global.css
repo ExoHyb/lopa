@@ -1,5 +1,5 @@
 /*
- * # Lopa - 1.0.03
+ * # Lopa - 1.0.04
  * https://github.com/
  * http://www.lopa.com/
  *
@@ -395,6 +395,22 @@ small {
   .info.info-danger {
     background: rgba(220, 53, 69, 0.5);
     border-color: rgba(220, 53, 69, 0.5); }
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100% !important; } }
+.sidebar .item-sidebar .title-sidebar {
+  font-weight: bold;
+  font-size: 20px;
+  background: rgba(227, 227, 227, 0.5);
+  padding: 1rem;
+  border-radius: 3px; }
+  @media (max-width: 768px) {
+    .sidebar .item-sidebar .title-sidebar {
+      cursor: pointer; } }
+@media (max-width: 768px) {
+  .sidebar .item-sidebar ul {
+    display: none; } }
 
 * {
   box-sizing: border-box; }

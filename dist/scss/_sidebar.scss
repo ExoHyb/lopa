@@ -1,0 +1,22 @@
+.sidebar {
+  @media (max-width: $sm) {
+    width: 100% !important;
+  }
+  .item-sidebar {
+    .title-sidebar {
+      font-weight: bold;
+      font-size: 20px;
+      background: rgba($color-beta, 0.5);
+      padding: 1rem;
+      border-radius: 3px;
+      @media (max-width: $sm) {
+        cursor: pointer;
+      }
+    }
+    ul {
+      @media (max-width: $sm) {
+        display: none;
+      }
+    }  
+  }
+}

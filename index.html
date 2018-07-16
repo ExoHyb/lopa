@@ -8,19 +8,24 @@
 <body>
   <main class="lp">
     <header class="mgt-1 mgb-2">
-      <h1 class="text-center mgb-0">Lopa <small>v1.0.03</small></h1>
+      <h1 class="text-center mgb-0">Lopa <small>v1.0.04</small></h1>
       <p class="text-center text-ital mgt-0">A Framework for the Bonhommes</p>
     </header>
     <section class="flex">
-      <div class="col-20">
-        <p>Get started</p>
-        <ul>
-          <li><a href="#">Container</a></li>
-          <li><a href="#">Système de colonnes</a></li>
-          <li><a href="#">Theme colors</a></li>
-        </ul>
+      <div class="sidebar col-30 pdr-2">
+        <div class="item-sidebar">
+          <p class="title-sidebar">Get started</p>
+          <ul>
+            <li><a href="#">Container</a></li>
+            <li><a href="#">Système de colonnes</a></li>
+            <li><a href="#">Theme colors</a></li>
+            <li><a href="#">Sidebar</a></li>
+            <li><a href="#">Sliders</a></li>
+            <li><a href="#">Mediaqueries</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="col-80">
+      <div class="col-70 col-xs-100 col-sm-100">
         <h2>Theme colors</h2>
         <pre>
           <code>
@@ -28,8 +33,8 @@
             <span class="bg-beta">$color-beta: #e3e3e3;</span>
             <span class="bg-gamma">$color-gamma: #9ad3de;</span>
             <span class="bg-delta">$color-delta: #89bdd3;</span>
-            <span class="bg-success">$color-success;</span>
-            <span class="bg-danger">$color-danger</span>
+            <span class="bg-success">$color-success: rgba(#28a745, 0.5);</span>
+            <span class="bg-danger">$color-danger: rgba(#dc3545, 0.5);</span>
           </code>
         </pre>
         <h2>Système de colonnes</h2>
@@ -66,5 +71,7 @@
       </div>
     </section>
   </main>
+  <script src="dist/js/jquery-3.3.1.min.js"></script>
+  <script src="dist/js/lopa.js"></script>
 </body>
 </html>
