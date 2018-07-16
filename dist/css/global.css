@@ -1,5 +1,5 @@
 /*
- * # Lopa - 1.0.00
+ * # Lopa - 1.0.02
  * https://github.com/
  * http://www.lopa.com/
  *
@@ -395,6 +395,9 @@ small {
   .info.info-danger {
     background: rgba(220, 53, 69, 0.5);
     border-color: rgba(220, 53, 69, 0.5); }
+
+* {
+  box-sizing: border-box; }
 
 .lp {
   padding-right: 1rem;

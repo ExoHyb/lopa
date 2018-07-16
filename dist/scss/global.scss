@@ -1,5 +1,5 @@
 /*
- * # Lopa - 1.0.00
+ * # Lopa - 1.0.02
  * https://github.com/
  * http://www.lopa.com/
  *
@@ -19,6 +19,10 @@
 
 body {
   // font-family: 'Arial', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 @mixin lp-container {
